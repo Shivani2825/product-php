@@ -1,0 +1,20 @@
+<HTML>
+	<h3> Welcome to Atitkumar Patel's TECH 3740 project.</h3>
+	<UL>
+		<LI><a href="view_employee.php">View all employees</a>
+	</UL>
+	Enter a partial address to find employee.
+	<br>
+	* for listing all employee.
+	<br>
+	<form action="search_employee.php" method='get'>
+		<input type="text" name='keyword' size=20 required>
+		<input type="submit" value ="Search">
+	</form>
+	<br>
+	<form action="login.php" method="post">
+		Employee login ID: <input type="text" name="username"  required="required" >
+		<br>Password: <input type="password" name="password"  required="required" >
+		<input type="submit" value="Submit">
+	</form>
+</HTML>
